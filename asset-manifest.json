@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.css": "/TTPros/static/css/main.5752c110.css",
+    "main.js": "/TTPros/static/js/main.9a22881f.js",
+    "index.html": "/TTPros/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.5752c110.css",
+    "static/js/main.9a22881f.js"
+  ]
+}
