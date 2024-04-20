@@ -49,15 +49,15 @@ const Headermain = () => {
                   <li className="menu_item">
                   <Link onClick={handleToggle} to="/about" className="my-3">{text.menu.about_us}</Link>
                   </li>
-
+                  <li className="menu_item">
+                  <Link onClick={handleToggle} to={text.links.facebook} className="my-3">{text.menu.facebook}</Link>
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
           <div className="menu_footer d-flex flex-column flex-md-row justify-content-between align-items-md-center position-absolute w-100 p-3">
-            <div className="d-flex">
-            <a href={text.links.facebook}>{text.menu.facebook}</a>
-            </div>
+
             <p className="copyright m-0">{text.watermark}</p>
           </div>
         </div>

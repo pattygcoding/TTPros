@@ -10,7 +10,7 @@
     "title": "Tiger Tailgating Pros",
     "description": "[insert description here]",
     "view_packages": "View Packages",
-    "request_package": "Request Package",
+    "request_package": "Order Package",
     "gallery": "Gallery"
   },
   "packages":
@@ -134,14 +134,14 @@
       "additional_comment": "Additional Comments or Questions",
       "add_on_question": "Would you like to include any add-ons?",
       "cub": "Cub Tailgater Package",
-      "email": "Email*",
-      "first_name": "First Name*",
+      "email": "Email",
+      "first_name": "First Name",
       "hear_about_us_question": "How did you hear about us?",
-      "last_name": "Last Name*",
+      "last_name": "Last Name",
       "lot_number": "Lot Number",
       "lot_number_question": "Please select if you have already purchased a lot & spot number.",
       "per_game": "/game",
-      "phone_number": "Phone Number*",
+      "phone_number": "Phone Number",
       "select_an_option": "Select an Option*",
       "spot_number": "Spot Number",
       "vip": "VIP Tailgater Package"
@@ -177,11 +177,11 @@
   },
   "menu":
   {
-    "about_us": "About",
+    "about_us": "About Us",
     "facebook": "Facebook",
     "gallery": "Gallery",
     "home": "Home",
-    "request_package": "Request Package",
+    "request_package": "Order Packages",
     "tailgate_packages": "Packages"
   },
   "sidebar":

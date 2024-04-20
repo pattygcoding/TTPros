@@ -7,8 +7,21 @@ section {
     transition: all .5s ease-in;
 }
 
+@keyframes slideshow {
+  0% { background-image: url("https://i.imgur.com/N7XsoR3.jpeg"); }
+  20% { background-image: url("https://i.imgur.com/yeJiq5G.jpeg"); }
+  40% { background-image: url("https://i.imgur.com/ckURYig.jpeg"); }
+  60% { background-image: url("https://i.imgur.com/hVx74Ve.jpeg"); }
+  80% { background-image: url("https://i.imgur.com/oU0Ma5E.jpeg"); }
+  100% { background-image: url("https://i.imgur.com/N7XsoR3.jpeg"); }
+}
+
+.slides {
+    animation: slideshow 60s infinite;
+}
+
 .who_am_I {
-    font-family: Cinzel;
+    font-family: sans-serif;
 }
 
 .has-first-color {

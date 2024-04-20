@@ -14,6 +14,7 @@ export const TailgatePackages = () => {
           <title> Portfolio | {text.meta.title} </title>{" "}
           <meta name="description" content={text.meta.description} />
         </Helmet>
+        <Col>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
             <h1 className="display-4 mb-4">{text.packages.packages_title}</h1>{" "}
@@ -58,6 +59,7 @@ export const TailgatePackages = () => {
          </Link>
          </Col>
          </Row>
+         </Col>
       </Container>
     </HelmetProvider>
   );

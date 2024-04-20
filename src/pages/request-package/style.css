@@ -1,3 +1,153 @@
+.outer_package_select {
+    display: flex;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.add_on_container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 1rem;
+}
+
+.space {
+    margin-bottom: 1rem;
+}
+
+.add_on_option {
+    display: flex;
+}
+
+.add_on_box {
+    max-width: 93%;
+    height: 3.35rem;
+}
+
+.countbox {
+    width: 7%;
+    height: 3.35rem;
+}
+
+.selectable-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+    flex: 1;
+}
+
+.selectable-box:hover {
+    background-color: transparent;
+}
+
+.selectable-box:hover:nth-child(1) {
+    background-color: rgba(255, 165, 0, 0.4); /* Orange */
+}
+
+.selectable-box:hover:nth-child(2) {
+    background-color: rgba(128, 0, 128, 0.4); /* Purple */
+}
+
+.cub-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+    flex: 1;
+}
+
+.cub-box:hover: {
+    background-color: rgba(128, 0, 128, 0.4); /* Purple */
+}
+
+.vip-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+    flex: 1;
+}
+
+.vip-box:hover: {
+    background-color: rgba(128, 0, 128, 0.4); /* Purple */
+}
+
+.orange-border {
+    border-color: orange;
+    border-right: none; /* Remove the right border */
+    border-top-left-radius: 1rem; /* Apply border radius to the top-left corner */
+    border-bottom-left-radius: 1rem; /* Apply border radius to the bottom-left corner */
+}
+
+.orange-box {
+    border: 2px solid orange;
+}
+
+.purple-box {
+    border: 2px solid purple;
+}
+
+
+.purple-border {
+    border-color: purple;
+    border-left: none; /* Remove the right border */
+    border-top-right-radius: 1rem; /* Apply border radius to the top-left corner */
+    border-bottom-right-radius: 1rem; /* Apply border radius to the bottom-left corner */
+}
+
+.selected-orange {
+  border-color: #ffa500; /* Orange border color */
+  background-color: rgba(255, 165, 0, 0.4); /* Orange */
+  font-weight: bold;
+}
+
+.selected-purple {
+  border-color: #800080; /* Purple border color */
+  background-color: rgba(128, 0, 128, 0.4); /* Purple */
+  font-weight: bold;
+}
+
+.full-box {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.season_select {
+  flex: 1;
+}
+
+.game_select {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.add_on {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.add_on_greater_box {
+    display: flex;
+    flex-direction: row; /* Display items in a row */
+    align-items: right; /* Center items vertically within the row */
+}
+
 .contact__form .form-control {
     padding: 1.375rem .75rem;
     line-height: 1.5;
@@ -44,16 +194,3 @@ button.btn.ac_btn:hover {
     }
 }
 
-.selectable-box {
-    display: inline-block;
-    border: 2px solid #ccc;
-    padding: 10px;
-    margin-right: 10px;
-    cursor: pointer;
-}
-
-  /* CSS for the selected box */
-.selected {
-  border-color: #007bff; /* Change color to indicate selection */
-  font-weight: bold; /* Example: make the selected option bold */
-}

@@ -17,8 +17,7 @@ export const Home = () => {
         </Helmet>
         <div className="intro_sec d-block d-lg-flex align-items-center ">
           <div
-            className="h_bg-image order-1 order-lg-2 h-100 "
-            style={{ backgroundImage: `url(${image.home})` }}
+            className="h_bg-image order-1 order-lg-2 h-100 slides"
           >
 
             <div class="imgtext">
